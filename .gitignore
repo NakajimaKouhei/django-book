@@ -47,3 +47,4 @@ Temporary Items
 .apdisk
 .vs/django-book/v15/.suo
 django-book.sln
+*.pyc
