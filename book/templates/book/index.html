@@ -1,13 +1,83 @@
 ﻿{% extends "base.html" %}
+{% load staticfiles %}
+
 
 {% block extrahead %}
 <style>
-    .add {
-        font-size: 30px;
+    <!-- BootStrapの設定によりナビとヘッダーに余白が生まれる -->
+    body {
+        padding-top: 30px;
     }
 </style>
 {% endblock %}
 
 {% block content %}
-    <p class="add">追加部分です</p>
+
+<!-- ナビ -->
+{% include 'header_index.html' %}
+
+<!-- ヘッダー -->
+<header class="jumbotron">
+	<div class="container text-center">
+		<h1>Read to book</h1>
+		<h2>That will make you grow.</h2>
+		<button type="button" class="btn btn-primary">Log in</button>
+	</div>
+</header>
+
+<!-- 特徴 -->
+<div class="container-fluid">
+    <div class="col-md-4 text-center">
+        <img src="{% static 'img/top-icon1.jpeg' %}" />
+        <h3>コンセプト</h3>
+        <p>円滑にほんの共有を行う</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <img src="{% static 'img/top-icon2.jpeg' %}" />
+        <h3>使用方法</h3>
+        <p>必要な書籍を見つけ、予約してください</p>
+    </div>
+    <div class="col-lg-4 text-center">
+        <img src="{% static 'img/top-icon3.jpeg' %}" />
+        <h3>特徴</h3>
+        <p>各書籍の情報共有ができます。</p>
+    </div>
+</div>
+
+<!-- サイト説明 -->
+<div class="jumbotron text-center site-description" id="index_one">
+    <h1>図書管理(仮)とは</h1>
+    <h2>社内との情報共有で読書・勉強をよりよいものに</h2>
+    <p>社内にある書籍を管理し、貸出可能な書籍に関しては貸出を行うことができます。</p>
+    <p>また、書籍情報の共有としてレビュー機能を実装し、自身が求めている情報を持つ本、読んだ人の感想を見てから読みたい</p>
+    <p>そういった方々に円滑に書籍を選んでいただけるようになっています。</p>
+</div>
+
+<!-- 機能説明 -->
+<div class="container-flid text-center function-description" id="index_two">
+    <h1>機能説明</h1>
+    <div class="row">
+        <img src="{% static 'img/search.png' %}" class="col-md-8" />
+        <h3>検索機能</h3>
+	    <p>書籍名での検索だけではなく、タグ名での検索機能によって、特定のジャンルでの検索が可能に</p>
+	    <p>欲しい情報を持っている書籍を素早く検索することができる</p>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+	    <h3>オススメ書籍・新着書籍</h3>
+	    <p>よく貸し出しが行われている本や新着の本をメイン画面に表示しています。</p>
+	    <p>普段手に取らないような本にも出合うことが</p>
+        </div>
+        <img src="{% static 'img/index_book.png' %}" class="col-md-4" />
+    </div>
+    <hr />
+    <div class="row">
+        <img src="{% static 'img/index_main.png' %}" class="col-md-8" />
+        <h3>各書籍ページ</h3>
+	    <p>書籍名・著者などの書籍情報、関連タグや内容紹介で書籍の情報が一目でわかりやすく</p>
+	    <p>社内の人間同士によるレビューもあるため、読む前に参考にしていただき、読んだ後はこれから学ぶ人間のために情報共有をすることで社内全体のスキル向上に役立ちます</p>
+    </div>
+</div>
+
 {% endblock content %}

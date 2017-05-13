@@ -56,7 +56,9 @@
   <ItemGroup>
     <Content Include="book\templates\base.html" />
     <Content Include="book\templates\book\index.html" />
+    <Content Include="book\templates\header_index.html" />
     <Content Include="requirements.txt" />
+    <Content Include="static\css\book.css" />
     <Content Include="static\css\bootstrap-theme.css" />
     <Content Include="static\css\bootstrap-theme.css.map" />
     <Content Include="static\css\bootstrap-theme.min.css" />
@@ -70,6 +72,8 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="static\img\green0005.png" />
+    <Content Include="static\img\ixui_logo_full_color.jpg" />
     <Content Include="static\js\bootstrap.js" />
     <Content Include="static\js\bootstrap.min.js" />
     <Content Include="static\js\jquery-3.2.1.min.js" />
@@ -86,6 +90,7 @@
     <Folder Include="static\css\" />
     <Folder Include="static\fonts\" />
     <Folder Include="static\js\" />
+    <Folder Include="static\img\" />
     <Folder Include="user\" />
     <Folder Include="user\migrations\" />
     <Folder Include="user\templates\" />
