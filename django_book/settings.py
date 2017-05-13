@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'book', #ここに追加
+    'user', #ここに追加
 ]
 
 MIDDLEWARE_CLASSES = [
