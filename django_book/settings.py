@@ -60,7 +60,7 @@ ROOT_URLCONF = 'django_book.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')], #これでtemplatesフォルダを参照
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

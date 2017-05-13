@@ -54,15 +54,37 @@
     <Compile Include="user\__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="book\templates\index.html" />
+    <Content Include="book\templates\book\index.html" />
     <Content Include="requirements.txt" />
+    <Content Include="static\css\bootstrap-theme.css" />
+    <Content Include="static\css\bootstrap-theme.css.map" />
+    <Content Include="static\css\bootstrap-theme.min.css" />
+    <Content Include="static\css\bootstrap-theme.min.css.map" />
+    <Content Include="static\css\bootstrap.css" />
+    <Content Include="static\css\bootstrap.css.map" />
+    <Content Include="static\css\bootstrap.min.css" />
+    <Content Include="static\css\bootstrap.min.css.map" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="static\js\bootstrap.js" />
+    <Content Include="static\js\bootstrap.min.js" />
+    <Content Include="static\js\jquery-3.2.1.min.js" />
+    <Content Include="static\js\npm.js" />
     <Content Include="user\templates\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="book\" />
     <Folder Include="book\migrations\" />
     <Folder Include="book\templates\" />
+    <Folder Include="book\templates\book\" />
     <Folder Include="django_book\" />
+    <Folder Include="static\" />
+    <Folder Include="static\css\" />
+    <Folder Include="static\fonts\" />
+    <Folder Include="static\js\" />
     <Folder Include="user\" />
     <Folder Include="user\migrations\" />
     <Folder Include="user\templates\" />
