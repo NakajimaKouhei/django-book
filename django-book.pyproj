@@ -50,13 +50,15 @@
     <Compile Include="user\migrations\__init__.py" />
     <Compile Include="user\models.py" />
     <Compile Include="user\tests.py" />
+    <Compile Include="user\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="user\views.py" />
     <Compile Include="user\__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="book\templates\base.html" />
-    <Content Include="book\templates\book\index.html" />
-    <Content Include="book\templates\header_index.html" />
+    <Content Include="user\templates\base.html" />
+    <Content Include="user\templates\header_index.html" />
     <Content Include="requirements.txt" />
     <Content Include="static\css\book.css" />
     <Content Include="static\css\bootstrap-theme.css" />
@@ -84,7 +86,7 @@
     <Content Include="static\js\bootstrap.min.js" />
     <Content Include="static\js\jquery-3.2.1.min.js" />
     <Content Include="static\js\npm.js" />
-    <Content Include="user\templates\index.html" />
+    <Content Include="user\templates\user\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="book\" />
@@ -100,6 +102,7 @@
     <Folder Include="user\" />
     <Folder Include="user\migrations\" />
     <Folder Include="user\templates\" />
+    <Folder Include="user\templates\user\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="..\env\django-book\">
