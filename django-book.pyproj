@@ -73,7 +73,13 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="static\img\green0005.png" />
+    <Content Include="static\img\index_book.png" />
+    <Content Include="static\img\index_main.png" />
     <Content Include="static\img\ixui_logo_full_color.jpg" />
+    <Content Include="static\img\search.png" />
+    <Content Include="static\img\top-icon1.jpeg" />
+    <Content Include="static\img\top-icon2.jpeg" />
+    <Content Include="static\img\top-icon3.jpeg" />
     <Content Include="static\js\bootstrap.js" />
     <Content Include="static\js\bootstrap.min.js" />
     <Content Include="static\js\jquery-3.2.1.min.js" />

@@ -11,13 +11,16 @@ header.jumbotron {
     background: url("../img/green0005.png") center no-repeat;
     background-size: cover;
     font-family: Yu Gothic;
-    letter-spacing: 25px;
 }
 
 header .container {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.container h1, h2 {
+    letter-spacing: 25px;
 }
 
 header .btn {
