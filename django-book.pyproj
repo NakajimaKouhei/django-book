@@ -54,6 +54,7 @@
     <Compile Include="user\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="book\templates\base.html" />
     <Content Include="book\templates\book\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="static\css\bootstrap-theme.css" />

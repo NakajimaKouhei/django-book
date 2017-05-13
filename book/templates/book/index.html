@@ -1,11 +1,13 @@
-<!DOCTYPE html>
- 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-     <meta charset="utf-8" />
-     <title></title>
-</head>
-<body>
-     Hello World
-</body>
-</html>
+﻿{% extends "base.html" %}
+
+{% block extrahead %}
+<style>
+    .add {
+        font-size: 30px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    <p class="add">追加部分です</p>
+{% endblock content %}
