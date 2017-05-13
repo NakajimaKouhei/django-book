@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'book', #ここに追加
     'user', #ここに追加
+    'bootstrap3',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -59,7 +60,7 @@ ROOT_URLCONF = 'django_book.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')], #これでtemplatesフォルダを参照
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,4 +125,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)

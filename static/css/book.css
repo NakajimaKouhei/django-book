@@ -1,0 +1,38 @@
+/* index */
+.navbar-brand {
+    background: url("../img/ixui_logo_full_color.jpg") no-repeat left center;
+    background-size: contain;
+    height: 50px;
+    width: 100px;
+}
+
+header.jumbotron {
+    height: 60vh;
+    background: url("../img/green0005.png") center no-repeat;
+    background-size: cover;
+    font-family: Yu Gothic;
+    letter-spacing: 25px;
+}
+
+header .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header .btn {
+    padding: 10px 80px 10px 80px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.site-description {
+    background-color: rgba(0,153,102,0.8);
+    color: white;
+    margin-top: 30px;
+    height: 400px;
+}
+
+.site-description h2{
+    margin-bottom: 50px;
+}
