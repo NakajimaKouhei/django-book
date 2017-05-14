@@ -48,3 +48,5 @@ Temporary Items
 .vs/django-book/v15/.suo
 django-book.sln
 *.pyc
+obj/Debug/django-book.pyproj.CoreCompileInputs.cache
+obj/Debug/django-book.pyproj.FileListAbsolute.txt
