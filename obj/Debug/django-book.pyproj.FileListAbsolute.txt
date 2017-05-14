@@ -1,0 +1,1 @@
+I:\programing\python\django-book\obj\Debug\django-book.pyproj.CoreCompileInputs.cache

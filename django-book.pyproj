@@ -87,6 +87,7 @@
     <Content Include="static\js\jquery-3.2.1.min.js" />
     <Content Include="static\js\npm.js" />
     <Content Include="user\templates\user\index.html" />
+    <Content Include="user\templates\user\login.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="book\" />
