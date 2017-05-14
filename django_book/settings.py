@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'book', #ここに追加
     'user', #ここに追加
-    'bootstrap3',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -80,8 +79,12 @@ WSGI_APPLICATION = 'django_book.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django', 
+        'USER': 'root',  
+        'PASSWORD': 'admin',  
+        'HOST': '',  
+        'PORT': '3306',  
     }
 }
 
