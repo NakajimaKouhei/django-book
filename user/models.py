@@ -25,5 +25,5 @@ class m_emp(AbstractBaseUser):
     email_address = models.CharField(max_length=255)
 
     USERNAME_FIELD = 'emp_num'
-    REQUIRED_FIELDS = ['password']
+    REQUIRED_FIELDS = ['emp_num']
     objects = m_empUserManager()
